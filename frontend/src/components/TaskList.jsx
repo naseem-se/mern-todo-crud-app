@@ -15,7 +15,7 @@ const TaskList = ({
     }
 
     return (
-        <ul className="list-group">
+        <ul className="container-fluid list-group">
 
             {tasks.map(task => (
                 <TaskItem
